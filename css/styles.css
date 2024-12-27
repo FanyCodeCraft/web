@@ -1,0 +1,8 @@
+.jumbotron {
+    background-image: url('https://i.pinimg.com/736x/89/1a/a2/891aa2d55d84006f0706b939bb92e122.jpg'); /* Ganti dengan URL gambar latar belakang yang diinginkan */
+    background-size: cover; /* Pastikan gambar menutupi seluruh area */
+    background-position: center; /* Posisikan gambar di tengah */
+    background-repeat: no-repeat; /* Jangan ulang gambar */
+    color: white; /* Mengubah warna teks menjadi putih agar kontras dengan latar belakang */
+    padding: 100px 30%; /* Sesuaikan padding jika diperlukan */
+}
