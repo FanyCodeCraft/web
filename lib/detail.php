@@ -51,6 +51,18 @@ if (mysqli_num_rows($query) == 0) {
           <div id="hp_pemesan"><?=$detail[2]?></div>
         </div>
         <div class="mb-3">
+          <label for="tanggal_wisata" class="form-label">Tanggal Wisata</label>
+          <div id="tanggal_wisata"><?=date('d-m-Y', strtotime($detail[3]))?></div>
+        </div>
+        <div class="mb-3">
+          <label for="waktu_mulai" class="form-label">Waktu Mulai Perjalanan</label>
+          <div id="waktu_mulai"><?=date('H:i', strtotime($detail[4]))?></div>
+        </div>
+        <div class="mb-3">
+          <label for="jumlah_peserta" class="form-label">Jumlah Peserta</label>
+          <div id="jumlah_peserta"><?=$detail[5]?></div>
+        </div>
+        <div class="mb-3">
           <label for="total" class="form-label">Total Tagihan</label>
           <div id="total">Rp. <?=number_format($detail[9],0,',','.')?></div>
         </div>
@@ -59,7 +71,6 @@ if (mysqli_num_rows($query) == 0) {
         <a href="edit.php?aksi=edit&id_pemesanan=<?=$detail[0]?>" class="btn btn-warning">Edit</a>
         <a href="" onclick="window.print()" class="btn btn-success">Cetak</a>
         <a href="hapus.php?aksi=hapus&id_pemesanan=<?=$detail[0]?>" class="btn btn-danger">Hapus</a>
-		<button type="submit" class="btn btn-primary">Simpan Perubahan</button>
       </div>
     </div>
   </div>
