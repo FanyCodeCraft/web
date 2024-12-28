@@ -35,7 +35,7 @@
                     <a class="nav-link" href="../main/kontak.php">Kontak</a>
                 </li>
                 <li  class="nav-item">
-                    <a class="nav-link" href="../main/pesanan.php">pemesanan</a>
+                    <a class="nav-link" href="../main/pesanan.php">Pemesanan</a>
                 </li>
             </ul>
              <!-- Form Pencarian -->
