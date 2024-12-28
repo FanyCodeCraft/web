@@ -44,6 +44,10 @@
             <li class="nav-item active">
                 <a class="nav-link" href="#">Pemesanan</a>
             </li>
+            <li  class="nav-item">
+                <a class="nav-link" href="../lib/daftar.php">Daftar Pemesanan</a>
+            </li>
+            
         </ul>
     </div>
 </nav>

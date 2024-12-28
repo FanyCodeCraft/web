@@ -37,6 +37,9 @@
                 <li  class="nav-item">
                     <a class="nav-link" href="../main/pesanan.php">Pemesanan</a>
                 </li>
+                <li  class="nav-item">
+                    <a class="nav-link" href="../lib/daftar.php">Daftar Pemesanan</a>
+                </li>
             </ul>
              <!-- Form Pencarian -->
              <form class="form-inline ml-auto">
