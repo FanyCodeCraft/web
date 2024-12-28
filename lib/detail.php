@@ -57,6 +57,7 @@ if (mysqli_num_rows($query) == 0) {
       </div>
       <div class="card-footer">
         <a href="edit.php?aksi=edit&id_pemesanan=<?=$detail[0]?>" class="btn btn-warning">Edit</a>
+        <a href="" onclick="window.print()" class="btn btn-success">Cetak</a>
         <a href="hapus.php?aksi=hapus&id_pemesanan=<?=$detail[0]?>" class="btn btn-danger">Hapus</a>
 		<button type="submit" class="btn btn-primary">Simpan Perubahan</button>
       </div>
